@@ -6,7 +6,7 @@ The earliest supported version of the charting library for these examples is `v2
 
 1. Check that you can view https://github.com/tradingview/charting_library/. If you do not have access then you can [request access to this repository here](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
 2. Install dependencies `yarn install`
-3. Execute`.` ./copy_charting_library_files.sh`to copy charting library assets to`public`and`src folders
+3. Execute `copy_charting_library_files.sh` to copy charting library assets to `public` and `src` folders
 4. You will need to update `udf-compatible-datafeed.ts` file in `public/datafeeds/udf/src` folder to support api-key header for datafeed requests to do so update a constructor method to receive a new parameter and pass it to Requester
 
 ```typescript
