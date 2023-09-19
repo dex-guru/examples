@@ -2,6 +2,8 @@
 
 This project demonstrates how to retrieve the current user balance utilizing the Dexguru API. The application allows users to input their wallet address and choose a network, then it fetches and displays the balance for their tokens.
 
+![image](https://github.com/dex-guru/examples/assets/5421236/23267b89-fd73-4638-a36b-f7ada90f99d4)
+
 ## How to start
 
 1. Checkout the repository
