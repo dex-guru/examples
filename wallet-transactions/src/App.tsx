@@ -31,7 +31,7 @@ interface ApiResponse {
   is_reorged: boolean;
 }
 
-const API_URL = `https://api.dev.dex.guru/wh/copy_of_76_all_transactions_page_erc-20_tab?api_key=${process.env.REACT_APP_API_KEY}`;
+const API_URL = `https://api.dev.dex.guru/wh/transactions_by_wallet?api_key=${process.env.REACT_APP_API_KEY}`;
 
 const SUPPORTED_NETWORKS: Network[] = [
   'canto',
